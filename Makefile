@@ -3,7 +3,7 @@ VERSION = 0.0.1
 CC ?= gcc
 CFLAGS = -MMD -Isrc -Wall -Wextra -Werror -pedantic -std=c99 -Wno-unused-parameter -DVERSION=\"$(VERSION)\"
 
-BIN = smallfeed
+BIN = tildefeed
 SRC = $(wildcard src/*.c)
 OBJ = $(SRC:.c=.o)
 DEP = $(SRC:.c=.d)

@@ -35,7 +35,7 @@ main(int argc, char *argv[])
 
     ARGBEGIN {
         case 'v':
-            printf("smallfeed-"VERSION", © 2015 Charles E. Lehner\n");
+            printf("tildefeed-"VERSION", © 2015 Charles E. Lehner\n");
             return 0;
         case 'i':
             interval_secs = atoi(EARGF(usage(1)));
